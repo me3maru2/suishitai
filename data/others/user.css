@@ -1,0 +1,15 @@
+.message_inner {
+    image-rendering: pixelated;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+
+@font-face {
+    font-family: "MyDotFont"; /* 好きな名前を付けてOK */
+    src: url("./KH-Dot-Kagurazaka-16.ttf"); /* data/othersの中にあるファイル名 */
+}
+
+/* メッセージウィンドウの中身に適用する */
+.message_inner {
+    font-family: "MyDotFont", sans-serif !important;
+}
