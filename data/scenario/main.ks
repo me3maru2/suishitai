@@ -133,86 +133,10 @@
 死んじゃったかと思ったわ[p]
 起きてたんなら返事くらいしろよな～
 
-[glink  color="noon_btn"  storage="main.ks"  x="410"  y="150"  text="水くらい出せただろ"  target="*mizu1"   clickse="bubble01.mp3"]
-[glink  color="noon_btn"  storage="main.ks"  x="410"  y="250"  text="悪かった"  target="*mizu2"   clickse="bubble01.mp3"]
-[s]
+[p]
 
-*mizu1
-[cm]
-#ヤナギ？
-別に自分で水くらい出せたんじゃないですか[p]
-#???
-だって水とか勝手に出したらお前おこるじゃん[p]
-#ヤナギ？
-べつに怒ったことはない。[p]
-[image layer="1" storage="talk/noon_ase.png" x=100 y=100 visible="true"]
-#???
-あれ～？そうだっけ………[p]
-@jump target="*mizuelse"
-*mizu2
-[cm]
-#ヤナギ？
-…………[l]次からは気を付ける[p]
-[image layer="1" storage="talk/noon_wara.png" x=100 y=100 visible="true"]
-#???
-これで何度目だよ～。疲れてんじゃない？[p]
-肩もんでやろっか！[cm]
-#ヤナギ？
-爪が刺さる。[p]
-[image layer="1" storage="talk/noon_kegen.png" x=100 y=100 visible="true"]
-#???
-ちぇ～…………[p]
-*mizuelse
-[cm]
-
-[freeimage layer="1"]
 #
-この、人と魚の中間見たいな見た目をした男が俺の同居人だ。[p]
-いつからこいつが居るかとか。[r]
-なんでこいつがいるかとか[r]
-そういう細かいことは覚えてない[p]
-ただ………[l]いてくれてよかった。[l][r]
-それだけはなぜか感じるし。覚えている。[p]
+現在はここまで。
 
-
-#同居人
-今日は外出んの～？[p]
-[bg storage="01_5.png" time="0" wait="true"]
-#同居人
-オレこの前くった甘いのがいい！[p]
-
-#ヤナギ？
-甘いのなんかあげたか？[p]
-
-[bg storage="01_6.png" time="0" wait="true"]
-#同居人
-あれ？まあいいじゃん！[p]
-ちょっと！ちょっとだけ！[p]
-
-#ヤナギ？
-…………[l]駄目です。[p]
-
-[bg storage="01_7.png" time="0" wait="true"]
-#同居人
-ひでー！[p]
-
-[set_bg storage="search/day1/noon_laundry" time="1000" wait="true"]
-[eval exp="f.currInfo.room = 1"]
-#
-これ以上相手をしてられない。[p]
-
-[set_bg storage="search/day1/noon_living1" time="1000" wait="true"]
-[eval exp="f.currInfo.room = 4"]
-#
-妙に今日は頭が痛いんだ。[l][r]
-
-[set_bg storage="search/day1/noon_room" time="1000" wait="true"]
-[eval exp="f.currInfo.room = 6"]
-#
-早く寝よう…………[p]
-……？[l][r]
-[font bold=true] 薬箱 [resetfont]はどこだ?[p]
-
-
-@jump storage="day1_noon.ks"
+@jump storage="title.ks"
 [s]
