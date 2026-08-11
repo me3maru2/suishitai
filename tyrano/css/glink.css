@@ -1,0 +1,99 @@
+
+
+/* color styles 
+---------------------------------------------- */
+
+
+/* button 
+---------------------------------------------- */
+  .glink_button {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 2px solid #B5C7C8 !important;
+    color: #B5C7C8 !important;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+    height: auto !important;
+    padding: 5px 20px !important;
+  	text-align: center;
+    transition: 0.3s;
+    width: 350px;
+  }
+
+  /* マウスを乗せた時の処理 */
+  .glink_button:hover {
+    background-color: rgba(51, 117, 134, 0.5) !important;
+    color: #B5C7C8 !important;
+  }
+  /* 昼 */
+  .noon_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #B5C7C8 !important;
+    color: #B5C7C8 !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .noon_btn:hover {
+    background-color: rgba(51, 117, 134, 0.5) !important;
+    color: #B5C7C8 !important;
+  }
+  .noon_red_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #BB2626 !important;
+    color: #BB2626 !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .noon_red_btn:hover {
+    background-color: rgba(132, 54, 54, 0.5) !important;
+    color: #BB2626 !important;
+  }
+
+  /* 夕 */
+  
+  .evening_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #D7CDCC !important;
+    color: #D7CDCC !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .evening_btn:hover {
+    background-color: rgba(49, 104, 161, 0.502) !important;
+    color: #B5C7C8 !important;
+  }
+  .evening_red_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #BB2626 !important;
+    color: #BB2626 !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .evening_red_btn:hover {
+    background-color: rgba(80, 17, 17, 0.5) !important;
+    color: #BB2626 !important;
+  }
+  
+  /* 夜 */
+  
+  .night_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #B5C7C8 !important;
+    color: #B5C7C8 !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .night_btn:hover {
+    background-color: rgba(51, 117, 134, 0.8) !important;
+    color: #B5C7C8 !important;
+  }
+  .night_red_btn {
+    background-color: rgba(6, 34, 45, 0.5) !important;
+    border: 1px solid #BB2626 !important;
+    color: #BB2626 !important;
+    border-radius: 0px !important;
+    padding: 10px 20px !important;
+  }
+  .night_red_btn:hover {
+    background-color: rgba(132, 54, 54, 0.5) !important;
+    color: #BB2626 !important;
+  }
