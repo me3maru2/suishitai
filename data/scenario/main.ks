@@ -126,7 +126,7 @@
 (自分で何とかできるだろ…………)[p]
 はいはい分かった。[p]
 
-[set_bg storage="talk/noon" time="2000"]
+[set_bg storage="talk/day1_noon" time="2000"]
 
 #???
 あ。よかった～[p]
