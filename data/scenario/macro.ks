@@ -256,6 +256,7 @@
 
     ; フラグ判定と表示処理
     [if exp="sf.lightVerFlg == 0"]
+        [bg storage="&tf.bg_image_path" time="&tf.bg_time" wait="&tf.bg_wait"]
         [stop_bgmovie time="&tf.bg_time" wait="false" ]
         [bgmovie storage="&tf.bg_movie_path" time="&tf.bg_time"]
     [else]
