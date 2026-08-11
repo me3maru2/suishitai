@@ -255,11 +255,11 @@
     [endscript]
 
     ; フラグ判定と表示処理
-    [if exp="sf.lightVerFlg == 1"]
-        [stop_bgmovie time="&tf.bg_time"]
+    [if exp="sf.lightVerFlg == 0"]
+        [stop_bgmovie time="&tf.bg_time" wait="false" ]
         [bgmovie storage="&tf.bg_movie_path" time="&tf.bg_time"]
     [else]
-        [stop_bgmovie time="&tf.bg_time"]
+        [stop_bgmovie time="&tf.bg_time" wait="false" ]
         [bg storage="&tf.bg_image_path" time="&tf.bg_time" wait="&tf.bg_wait"]
     [endif]
 
