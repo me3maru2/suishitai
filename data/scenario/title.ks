@@ -16,7 +16,7 @@
 
 
 [set_bg storage="title/title_normal"]
-[ptext layer="0" text="Ver 08.11.16:09" x=10 y=680 size=30 color="#BB2626" edge="#BB2626" time="1200"]
+[ptext layer="0" text="Ver 08.11.16:28" x=10 y=680 size=30 color="#BB2626" edge="#BB2626" time="1200"]
 [image layer="0" storage="logo.png" x=770 y=150 width=400 visible="true" time="1200"]
 [button name="my_btn" x=880 y=380 graphic="title/button_start.png" enterimg="title/button_start2.png" target="gamestart" keyfocus="1" clickse="mizu_dobon01.mp3" enterse="chapon2.mp3"]
 [button name="my_btn" x=885 y=450 graphic="title/button_load.png" enterimg="title/button_load2.png" role="load" keyfocus="2" clickse="bubble01.mp3" enterse="chapon2.mp3"]
